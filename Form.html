@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+<form>
+    <div>
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" id="fullname" required>
+    </div><br>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+    </div><br>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+    </div><br>
+    <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+    </div><br>
+   <div>
+    <label for="photo"> Choose your photo:</label>
+    <input type="file" name="photo" id="photo">
+   </div><br>
+   <div>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="gender" value="male"> Male
+    <input type="radio" name="gender" id="gender" value="female"> Female
+   </div><br>
+   <div>
+    <label for="religion">Religion:</label>
+    <input checked type="checkbox" name="c1" id="Muslim" value="Muslim"> Muslim
+    <input type="checkbox" name="c2" id="Hindu" value="Hindu"> Hindu
+   </div><br>
+   <div>
+    <label for="department">Department: </label>
+    <select name="department">
+        <option value="cse" selected>CSE</option>
+        <option value="eee">EEE</option>
+        <option value="llb">LLB</option>
+    </select>
+   </div>
+   <div>
+    <label for="message">Messasge: </label><br>
+    <textarea cols="50" rows="20"> </textarea>
+   </div>
+   <div>
+    <input type="submit" value="Register">
+    <input type="reset" value="clear">
+   </div>
+</form>
+</body>
+</html>

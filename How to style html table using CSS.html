@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <title>How to style html table using CSS</title>
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse:collapse;
+            width:100%;
+        }
+
+        th,td{
+            border:2px solid black;
+            padding:5px;
+            text-align: center;
+        }
+
+        th{
+            background-color: darkgreen;
+            color: white;
+            height: 30px;
+            /*--vertical-align: bottom;
+            vertical-align: top; --*/
+            vertical-align: middle;
+        }
+
+        tr:nth-child(even){
+            background-color:gray;
+        }
+
+        tr:nth-child(odd){
+            background-color:gold;
+        }
+
+        tr:hover{
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption> Student Details </caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th>Phone</th>
+            <th>Bio</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Mamun</td>
+            <td>5.00</td>
+            <td>01744311125</td>
+            <td>Voluptua ut sanctus ipsum eos sadipscing amet rebum aliquyam eos accusam. Sit ea diam stet et vero lorem gubergren. Magna.</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Abdullah</td>
+            <td>5.00</td>
+            <td>01744311125</td>
+            <td>Voluptua ut sanctus ipsum eos sadipscing amet rebum aliquyam eos accusam. Sit ea diam stet et vero lorem gubergren. Magna.</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Abdur Rahman</td>
+            <td>5.00</td>
+            <td>01744311125</td>
+            <td>Voluptua ut sanctus ipsum eos sadipscing amet rebum aliquyam eos accusam. Sit ea diam stet et vero lorem gubergren. Magna.</td>
+        </tr>
+
+        <tr>
+            <td>104</td>
+            <td>Ismail</td>
+            <td>5.00</td>
+            <td>01744311125</td>
+            <td>Voluptua ut sanctus ipsum eos sadipscing amet rebum aliquyam eos accusam. Sit ea diam stet et vero lorem gubergren. Magna.</td>
+        </tr>
+
+        <tr>
+            <td>105</td>
+            <td>Suyaif</td>
+            <td>5.00</td>
+            <td>01744311125</td>
+            <td>Voluptua ut sanctus ipsum eos sadipscing amet rebum aliquyam eos accusam. Sit ea diam stet et vero lorem gubergren. Magna.</td>
+        </tr>
+    </table>
+</body>
+</html>
